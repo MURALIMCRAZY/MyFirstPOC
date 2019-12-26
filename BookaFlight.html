@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="homestyle.css">
+<script src="jquery-3.2.1.js"></script>
+<script>
+$(document).ready(function() {
+	$('input[id="st"]').click(function(){
+		$(rdoj).hide();
+        $(DojRet).hide();
+    });
+	$('input[id="rt"]').click(function(){
+		$(rdoj).show();
+        $(DojRet).show();
+    });
+});
+</script>
+</head>
+
+<body>
+<div>
+<h1>Book your Flight</h1>
+
+
+
+<form> 
+  <input type="radio" name="Triptype" value="single trip" id='st' checked> Single trip
+  <input type="radio" name="Triptype" value="Round trip" id='rt'> Round trip<br> <br>
+	
+</form> 
+
+
+  <div class="container">
+    <label><b>Source</b></label>
+    <input type="text" placeholder="Enter Source" name="sour" required>
+	
+	<label><b>Destination</b></label>
+    <input type="text" placeholder="Enter Destination" name="Dest" required><br> <br>
+	
+  Date of Journey:
+  <input type="date" name="Doj"> 
+  <label id="rdoj">Return Date of Journey:</label>
+  <input type="date" name="DojR" id="DojRet"><br> <br>
+  
+  <label>Enter no.of passengers</label>
+  <input type="number" name="quantity" value="1" min="1" max="5"> <br><br>
+  
+    <button type="Submit">Search</button>
+ 
+  </div>
+</div>
+
+</body> 
+
+
+</html>

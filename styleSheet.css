@@ -1,0 +1,84 @@
+body {
+background-image : url("CloudBackground.jpg");
+}
+h1 {
+background-color : #D2B48C;
+text-align : center;
+}
+h2 {
+border-bottom : 1px solid #D2B48C;
+}
+p {
+color : black;
+font-size : 15px;
+font-family : Helvetica;
+line-height : 1.5em;
+}
+.para3 {
+background-color : #D3D3D3;
+padding : 15px;
+border-color : #D2B48C;
+border-width : 2px;
+border-style : solid;
+border-radius : 10px;
+}
+p.para4 {
+background-color : #D3D3D3;
+padding : 15px;
+border-color : #D2B48C;
+border-width : 2px;
+border-style : solid;
+border-radius : 10px;
+}
+.Qlogoc {
+display : block;
+background-color : silver;
+padding : 2px;
+border-color : #D2B48C;
+border-width : 2px;
+border-style : solid;
+margin-left : auto;
+margin-right : auto;
+}
+h3 {
+font-size : 30px;
+border-bottom : 1px solid #D2B48C;
+}
+a:link {
+color : blue;
+}
+a:visited {
+color : #DAA520;
+}
+a:hover {
+color : #800000;
+}
+.craftImg {
+float : left;
+margin-right : 10px;
+}
+#nav {
+background-color : #D2B48C;
+height : 40px;
+margin-top : 15px;
+font-size : 25px;
+font-weight : bold;
+}
+#nav ul {
+list-style-type : none;
+padding : 0;
+margin : 0;
+text-align : center;
+}
+#nav ul li {
+display : inline;
+padding : 30px;
+}
+#nav a {
+color : black;
+text-decoration : none;
+line-height : 40px;
+}
+#nav a:hover {
+color : #800000;
+}

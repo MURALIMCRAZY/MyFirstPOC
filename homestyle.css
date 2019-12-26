@@ -1,0 +1,31 @@
+.Qlogo{
+display : block;
+background-color : silver;
+padding : 2px;
+border-color : blue;
+border-width : 2px;
+border-style : solid;
+margin-left : auto;
+margin-right : auto;
+}
+body{
+background-image : url("Qatarcargo.jpg");
+background-size: cover;
+}
+
+.para3{
+padding : 10px;
+border-color : green;
+border-width : 1px;
+border-style : solid;
+border-radius : 10px;
+}
+
+#DojRet {
+display : none;
+}
+
+#rdoj {
+display : none;
+}
+
